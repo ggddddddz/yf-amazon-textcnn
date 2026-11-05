@@ -1,0 +1,27 @@
+# ===== Python 环境与缓存 =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ===== 模型权重（>100MB，GitHub 拒收）=====
+*.pt
+*.pth
+*.ckpt
+
+# ===== 数据文件（几百 MB~几 GB，不传）=====
+*.csv
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# ===== 日志 =====
+*.log
+output/log/
+
+# ===== IDE / 系统杂项 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
